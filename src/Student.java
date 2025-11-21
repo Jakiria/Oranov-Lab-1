@@ -26,6 +26,6 @@ public class Student { // класс студента
 
     public double getAverageScore() { // функция получения среднего балла студента за все экзамены
         this.averageScore = (double)(this.totalScore / this.quizCount); //расчёт среднего балла с учётом типа данных
-        return this.averageScore;
+        return this.averageScore; //
     }
 }

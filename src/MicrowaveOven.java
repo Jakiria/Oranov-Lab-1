@@ -15,7 +15,7 @@ public class MicrowaveOven { // класс микроволновой печи
         return this.level;
     }
 
-    public void buttonOne() { // кнопка 1: добавление времени
+    public void buttonOne() { // кнопка 1: добавление времени //
         this.time += 30;
     }
 

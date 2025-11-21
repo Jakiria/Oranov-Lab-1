@@ -48,6 +48,6 @@ public class Main {
         testStudent.addQuiz(5);
 
         System.out.println("Общий балл за экзамены: " + testStudent.getTotalScore()); // вывод общего балла Алексея
-        System.out.println("Средний балл за экзамены: " + testStudent.getAverageScore()); // вывод среднего балла Алексея
+        System.out.println("Средний балл за экзамены: " + testStudent.getAverageScore()); // вывод среднего балла Алексея //
     }
 }

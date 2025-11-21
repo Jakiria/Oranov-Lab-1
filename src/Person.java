@@ -28,6 +28,6 @@ public class Person { // класс человека
     }
 
     public String getFriendsNames() { // функция получения списка друзей человека
-        return friendsNames;
+        return friendsNames; //
     }
 }

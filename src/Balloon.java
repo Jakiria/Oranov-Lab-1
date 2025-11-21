@@ -13,7 +13,7 @@ public class Balloon { // класс шарика
         return this.radius;
     }
 
-    public void inflate(double amount) { // функция надувания шарика
+    public void inflate(double amount) { // функция надувания шарика //
         if (amount <= 0) {
             System.out.println("Нельзя выпустить воздух из пустого шарика!");
         } else {
