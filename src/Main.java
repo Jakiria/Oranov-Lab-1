@@ -17,11 +17,11 @@ public class Main {
         System.out.println("Заданное время: " + testOven.getTime()); // получение данных о печи
         System.out.println("Уровень: " + testOven.getLevel());
 
-        testOven.buttonOne(); // заданное время: 60 секунд
-        testOven.buttonOne();
-        testOven.buttonTwo(); // заданный уровень: 2
-        testOven.buttonFour(); // запуск микроволновой печи
-        testOven.buttonThree(); // сброс настроек
+        testOven.addTime(); // заданное время: 60 секунд
+        testOven.addTime();
+        testOven.changeLevel(); // заданный уровень: 2
+        testOven.launchOven(); // запуск микроволновой печи
+        testOven.resetSettings(); // сброс настроек
 
         System.out.println("Задача P3.6: Человек и друзья.");
         Person testPerson = new Person("Богдан"); // создание нескольких объектов класса Person
@@ -48,6 +48,6 @@ public class Main {
         testStudent.addQuiz(5);
 
         System.out.println("Общий балл за экзамены: " + testStudent.getTotalScore()); // вывод общего балла Алексея
-        System.out.println("Средний балл за экзамены: " + testStudent.getAverageScore()); // вывод среднего балла Алексея
+        System.out.println("Средний балл за экзамены: " + testStudent.getAverageScore()); // вывод среднего балла Алексея //
     }
 }

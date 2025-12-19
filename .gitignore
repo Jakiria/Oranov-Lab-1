@@ -29,3 +29,12 @@ bin/
 ### Mac OS ###
 .DS_Store
 /.idea/
+/src/
+/src/Balloon.java
+/src/Main.java
+/src/MicrowaveOven.java
+/src/Person.java
+/src/Student.java
+/.gitignore
+/untitled2.iml
+/src/
