@@ -1,7 +1,7 @@
 public class MicrowaveOven { // класс микроволновой печи
     private int time;
     private int level;
-    private int ADD_TIME_CONSTRAINT = 30;
+    private int ADD_TIME_CONST = 30;
 
     public MicrowaveOven() { // конструктор микроволновой печи
         this.time = 0;
@@ -17,7 +17,7 @@ public class MicrowaveOven { // класс микроволновой печи
     }
 
     public void addTime() { // кнопка 1: добавление времени //
-        this.time += ADD_TIME_CONSTRAINT;
+        this.time += ADD_TIME_CONST;
     }
 
     public void changeLevel() { // кнопка 2: смена уровня в микроволновой печи
