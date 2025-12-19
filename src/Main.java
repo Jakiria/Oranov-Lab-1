@@ -19,9 +19,9 @@ public class Main {
 
         testOven.addTime(); // заданное время: 60 секунд
         testOven.addTime();
-        testOven.buttonTwo(); // заданный уровень: 2
-        testOven.buttonFour(); // запуск микроволновой печи
-        testOven.buttonThree(); // сброс настроек
+        testOven.changeLevel(); // заданный уровень: 2
+        testOven.launchOven(); // запуск микроволновой печи
+        testOven.resetSettings(); // сброс настроек
 
         System.out.println("Задача P3.6: Человек и друзья.");
         Person testPerson = new Person("Богдан"); // создание нескольких объектов класса Person

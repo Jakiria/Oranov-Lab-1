@@ -20,7 +20,7 @@ public class MicrowaveOven { // класс микроволновой печи
         this.time += ADD_TIME_CONSTRAINT;
     }
 
-    public void buttonTwo() { // кнопка 2: смена уровня в микроволновой печи
+    public void changeLevel() { // кнопка 2: смена уровня в микроволновой печи
         if (this.level == 1) {
             this.level = 2;
         } else {
@@ -28,12 +28,12 @@ public class MicrowaveOven { // класс микроволновой печи
         }
     }
 
-    public void buttonThree() { //кнопка 3: сброс заданных настроек
+    public void resetSettings() { //кнопка 3: сброс заданных настроек
         this.time = 0;
         this.level = 1;
     }
 
-    public void buttonFour() { //кнопка 4: запуск микроволновой печи с выводом настроек
+    public void launchOven() { //кнопка 4: запуск микроволновой печи с выводом настроек
         if (this.time == 0) {
             System.out.println("Запустить микроволновую печь нельзя!");
         } else {
