@@ -17,8 +17,8 @@ public class Main {
         System.out.println("Заданное время: " + testOven.getTime()); // получение данных о печи
         System.out.println("Уровень: " + testOven.getLevel());
 
-        testOven.buttonOne(); // заданное время: 60 секунд
-        testOven.buttonOne();
+        testOven.addTime(); // заданное время: 60 секунд
+        testOven.addTime();
         testOven.buttonTwo(); // заданный уровень: 2
         testOven.buttonFour(); // запуск микроволновой печи
         testOven.buttonThree(); // сброс настроек
